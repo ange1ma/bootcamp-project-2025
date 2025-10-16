@@ -28,6 +28,7 @@ blogs.forEach(function (blog) {
     var description = document.createElement("p");
     description.textContent = blog.description;
     var post = document.createElement("div");
+    post.className = "post";
     post.append(image, title, date, description);
     blogContainer === null || blogContainer === void 0 ? void 0 : blogContainer.append(post);
 });
