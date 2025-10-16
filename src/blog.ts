@@ -43,7 +43,8 @@ const blogs: Blog[] = [
     description.textContent = blog.description;
 
     const post = document.createElement("div");
-
+    post.className = "post";
+    
     post.append(image, title, date, description);
     blogContainer?.append(post);
   })
