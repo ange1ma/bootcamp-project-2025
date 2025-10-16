@@ -262,3 +262,41 @@ input[type="submit"]:hover {
     font-size: 16px;
     line-height: 1.5;
 }
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--cream);
+}
+
+.post {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    background-color: var(--white);
+    border: 2px dashed var(--beige);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post h1, h2 {
+    color: #a9745d;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.post p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--brown);
+}
