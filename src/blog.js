@@ -16,7 +16,7 @@ var blogs = [
         slug: "grwm-for-halloween",
     },
 ];
-var blogContainer = document.getElementById('blog=container');
+var blogContainer = document.getElementById('blog-container');
 blogs.forEach(function (blog) {
     var image = document.createElement("img");
     image.src = blog.image;

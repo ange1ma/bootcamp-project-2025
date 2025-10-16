@@ -26,7 +26,7 @@ const blogs: Blog[] = [
     },
   ];
 
-  const blogContainer = document.getElementById('blog=container');
+  const blogContainer = document.getElementById('blog-container');
 
   blogs.forEach((blog) => {
     const image = document.createElement("img");
