@@ -25,3 +25,25 @@ const blogs: Blog[] = [
         slug: "grwm-for-halloween",
     },
   ];
+
+  const blogContainer = document.getElementById('blog=container');
+
+  blogs.forEach((blog) => {
+    const image = document.createElement("img");
+    image.src = blog.image;
+    image.alt = blog.imageAlt;
+
+    const title = document.createElement("h1");
+    title.textContent = blog.title;
+
+    const date = document.createElement("h2");
+    date.textContent = blog.date;
+
+    const description = document.createElement("p");
+    description.textContent = blog.description;
+
+    const post = document.createElement("div");
+
+    post.append(image, title, date, description);
+    blogContainer?.append(post);
+  })
