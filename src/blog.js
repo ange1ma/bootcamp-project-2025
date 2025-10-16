@@ -32,7 +32,7 @@ blogs.forEach(function (blog) {
     description.textContent = blog.description;
     var post = document.createElement("div");
     post.className = "post";
-    link.append(image, title);
-    post.append(link, date, description);
+    link.append(title);
+    post.append(link, image, date, description);
     blogContainer === null || blogContainer === void 0 ? void 0 : blogContainer.append(post);
 });
