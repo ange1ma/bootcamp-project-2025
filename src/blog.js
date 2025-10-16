@@ -18,6 +18,9 @@ var blogs = [
 ];
 var blogContainer = document.getElementById('blog-container');
 blogs.forEach(function (blog) {
+    var link = document.createElement("a");
+    link.href = `./blogs/${blog.slug}.html`;
+    link.className = "blog-link";
     var image = document.createElement("img");
     image.src = blog.image;
     image.alt = blog.imageAlt;
@@ -29,6 +32,7 @@ blogs.forEach(function (blog) {
     description.textContent = blog.description;
     var post = document.createElement("div");
     post.className = "post";
-    post.append(image, title, date, description);
+    link.append(image, title);
+    post.append(link, date, description);
     blogContainer === null || blogContainer === void 0 ? void 0 : blogContainer.append(post);
 });
