@@ -9,20 +9,20 @@ type Blog = {
 
 const blogs: Blog[] = [
     {
-        title: "hello world!",
+        title: "Iced Matcha Latte Recipe",
         date: "10-10-2025",
-        description: "first blog ever",
-        image: "file path for image",
+        description: "A quick recipe for an iced matcha latte ★",
+        image: "/Users/angelma/bootcamp-project-2025/oops.png",
         imageAlt: "this is an image",
-        slug: "hello-world",
+        slug: "iced-matcha-latte-recipe",
     },
     {
-        title: "grwm for halloween",
-        date: "10-15-2025",
+        title: "Strawberry Milk Recipe",
+        date: "10-16-2025",
         description: "planning costume ideas",
-        image: "file path for image",
+        image: "/Users/angelma/bootcamp-project-2025/strawberrymilk.png",
         imageAlt: "this is an image",
-        slug: "grwm-for-halloween",
+        slug: "strawberry-milk-recipe",
     },
   ];
 
