@@ -1,3 +1,4 @@
+// blog.ts converted into blog.js
 var blogs = [
     {
         title: "Iced Matcha Latte Recipe",
