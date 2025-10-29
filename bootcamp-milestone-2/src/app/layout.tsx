@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Gaegu } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 import Navbar from "@/components/navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const gaegu = Gaegu({ subsets: ["latin"], weight: ["400"] });
 
-const geistSans = localFont({
+/*const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
@@ -16,11 +16,11 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
-});
+});*/
 
 export const metadata: Metadata = {
-  title: "Angel Ma's Personal Website",
-  description: "A personal website for Angel Ma.",
+  title: "Angel's Personal Website",
+  description: "A personal website for Angel.",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={inter.className} // change font l8r
+        className={gaegu.className} // change font l8r
       >
         <Navbar/>
         {children}
