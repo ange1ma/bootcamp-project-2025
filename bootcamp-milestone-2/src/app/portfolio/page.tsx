@@ -1,13 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Portfolio() {
   return (
     <main>
       <h1 className="page-title">Portfolio</h1>
       <div className="project">
-        <a href="/">
+        <Link href="/">
           <Image src="/website.png" alt="A screenshot of my website" width={450} height={400}/>
-          </a>
+          </Link>
         <div className="project-details">
           <p className="project-name">Angel's Personal Website</p>
           <p className="project-description">

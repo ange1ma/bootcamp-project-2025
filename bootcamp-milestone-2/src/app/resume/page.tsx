@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 export default function Resume() {
   return (
     <main>
       <h1 className="page-title">Resume</h1>
       {/*to access resume*/}
-      <a href="/resume4site.pdf" download>
+      <Link href="/resume4site.pdf" download>
         Download resume!
-      </a>
+      </Link>
       {/*resume*/}
       <div className="resume">
         {/*education*/}
