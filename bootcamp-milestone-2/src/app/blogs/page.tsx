@@ -1,4 +1,3 @@
-import Navbar from "@/components/navbar";
 import BlogPreview from "@/components/blogPreview";
 import blogs from "@/app/blogData";
 
