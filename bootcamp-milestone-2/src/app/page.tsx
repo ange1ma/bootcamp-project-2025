@@ -1,10 +1,8 @@
-import Navbar from "@/components/navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <Navbar/>
       <h1 className="page-title">Welcome to my website!</h1>
       <div className="about">
         <div className="about-image">
@@ -21,10 +19,6 @@ export default function Home() {
           I have two <em>purr-fect</em> companions! The picture at the left features my beloved cats, Luca and Mika.
         </p>
       </div>
-
-      <footer className="footer">
-        © 2025 Angel's Personal Website | All Rights Reserved
-      </footer>
     </main>
   );
 }
