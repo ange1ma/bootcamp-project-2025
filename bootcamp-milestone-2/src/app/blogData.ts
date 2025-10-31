@@ -13,7 +13,7 @@ const blogs: Blog [] = [
         title: "Iced Matcha Latte Recipe",
         date: "10-10-2025",
         description: "A quick recipe for an iced matcha latte ★",
-        image: "./public/oops.png",
+        image: "/oops.png",
         imageAlt: "this is an image",
         slug: "iced-matcha-latte-recipe",
     },
@@ -22,7 +22,7 @@ const blogs: Blog [] = [
         title: "Strawberry Milk Recipe",
         date: "10-16-2025",
         description: "planning costume ideas",
-        image: "./public/strawberrymilk.png",
+        image: "/strawberrymilk.png",
         imageAlt: "this is an image",
         slug: "strawberry-milk-recipe",
     }
