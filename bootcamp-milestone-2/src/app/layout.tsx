@@ -3,6 +3,7 @@ import { Gaegu } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 const gaegu = Gaegu({ subsets: ["latin"], weight: ["400"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
