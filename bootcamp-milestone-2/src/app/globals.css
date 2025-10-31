@@ -364,7 +364,7 @@ input[type="submit"]:hover {
   padding: 48px 64px;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: var(--gaegu);
   color: var(--darkgreen);
   line-height: 1.7;
 }
